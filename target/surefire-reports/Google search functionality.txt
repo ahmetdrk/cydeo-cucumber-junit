@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Google search functionality
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 44.738 s <<< FAILURE! - in Google search functionality
+Google search functionality.Search functionality result title verification #2  Time elapsed: 10.048 s  <<< ERROR!
+io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
+"user types "apple" and clicks enter" matches more than one step definition:
+  "user types {string} and clicks enter" in com.cydeo.step_definitions.GoogleStepDefinitions.user_types_and_clicks_enter(java.lang.String)
+  "user types {word} and clicks enter" in com.cydeo.step_definitions.GoogleStepDefinitions.user_types_and_clicks_enter2(java.lang.String)
+
